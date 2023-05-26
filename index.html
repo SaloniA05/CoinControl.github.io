@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoinControl</title>
+    <link rel="icon" type="x-icon" href="favicon.ico">
+        <!-- custom css file link  -->
+        <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" /> <!--importing -Swiper is a powerful js library used for creating responsive and touch enabled sliders-->
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-coins"></i> CoinControl  </a>  <!-- fas fa fas class indicates that the icon should use the "solid" style, and the fa-coin class indicates which specific icon to use-->
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="expenditure.html">Control Expenditure</a>
+        <a href="blog.html">Blog</a>
+        <a href="#footer">About us</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+
+    <form action="process.php" method="post" class="login-form">
+        <h3>Create Account</h3>
+        <p>CREATE NEW ACCOUNT NOW : <a href="form.html">click here</a></p>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Your one stop <span>solution</span> to all your money problems</h3>
+        <a href="expenditure.html" class="btn">start now</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!--  section starts  -->
+
+<section class="features" id="features">
+
+    <h1 class="heading"> Features Our Users <span>Love</span> </h1>
+
+    <div class="box-container">
+    <div class="box">
+            <img src="image/multipledevices.jpg" alt="multipledevices">
+            <h3>Multiple Devices</h3>
+            <p>Safely synchronise other devices with bank standard security.</p>
+        </div>
+
+        <div class="box">
+            <img src="image/savings.jpg" alt="savings">
+            <h3>Saving Plan</h3>
+            <p>Keep track on saving process to meet your financial goals.</p>
+        </div>
+
+        <div class="box">
+            <img src="image/alert.jpg" alt="">
+            <h3>Easy Alerts</h3>
+            <p>Get notified when you exceed your planned budget.</p>
+        </div>
+
+    </div>
+
+</section>
+<!--why use cc section starts-->
+<section class="reviews" id="reviews">
+
+    <h1 class="heading"><span> why </span> people use <span> CoinControl </span></h1>
+
+    <div class="box-container">
+    <div class="box">
+        <p><b>Budgeting:</b><br>Coin Control helps user set budgets for various expenses, such as rent, groceries, and entertainment, and keep track of their spending within those categories.</p>
+    </div>
+    <div class="box">
+        <p><b>Debt management:</b><br> Coin Control helps users too keep track of their debt payments and monitor their progress towards paying off loans or credit card balances.</p>
+    </div>
+    <div class="box">
+        <p><b>Saving:</b> <br> By tracking their expenses, users can identify areas where they can cut back and save money. Coin Control also helps users to set savings goals and track their progress towards them.</p>
+    </div>
+    </div>
+</section>
+
+<!--why use cc section ends-->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> customer's <span>review</span> </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/unknown1.jpeg" alt="image1">
+                <p><b>Nina Kapoor</b></p>
+                <h2>"I used to struggle to keep track of my spending, but with this expense tracker, it's become so easy. It's helped me identify areas where I was overspending and make adjustments to my budget."</h2>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/unknown2.jpeg" alt="image2">
+                <p><b>William James</b></p>
+                <h2>I was hesitant to try an expense tracker at first, but I'm so glad I did. It's amazing how much more mindful I am about my spending when I have to log each transaction. Plus, the app makes it so convenient to track everything on-the-go</h2>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/Unknown3.jpeg" alt="image3">
+                <p><b>Emma Stones</b></p>
+                <h2>"I've tried a few different expense trackers over the years, but this one is by far the most user-friendly. It's intuitive to use, and the design is clean and simple. I appreciate that it doesn't overwhelm me with too many features or options."</h2>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/unknown4.jpeg" alt="">
+                <p>Andrew Thomas</p>
+                <h2>"I can't imagine going back to managing my finances without an expense tracker. This one has saved me so much time and stress. I can easily see where my money is going, and the reminders to pay bills or review subscriptions have helped me stay on top of everything."</h2>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer" id="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> CoinControl <i class="fas fa-coins"></i> </h3>
+            <p>You can connect with us on:</p>
+            <div class="share">
+                <a target="_blank" href="#" class="fab fa-facebook-f"> </a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +919330927826 </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i>salonia9505@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Kolkata, india - 700034S </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="expenditure.html" class="links"> <i class="fas fa-arrow-right"></i> control expenditure </a>
+            <a href="blog.html" class="links"> <i class="fas fa-arrow-right"></i> blog </a>
+            <a href="#aboutus" class="links"> <i class="fas fa-arrow-right"></i> aboutus </a>
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span> Saloni Agrawal</span> </div>
+
+</section>
+
+<!-- footer section ends -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
+
